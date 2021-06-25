@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Gadjian Test</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="calc">
+        <span class="header">Calculator</span>
+        <form name="result" class="result-container">
+            <p class="upper-display"></p>
+            <input class="input-display">
+        </form>
+        <table class="buttons-container">
+            <tr class="rows">
+                <td><input type="button" value="C" class="symbol" id="C"></td> 
+                <td><input type="button" value="(" class="symbol" id="("></td>
+                <td><input type="button" value=")" class="symbol" id=")"></td>
+                <td><input type="button" value="/" class="symbol" id="/"></td>
+            </tr>
+            <tr class="rows">
+                <td><input type="button" value="7" class="number" id="7"></td>
+                <td><input type="button" value="8" class="number" id="8"></td>
+                <td><input type="button" value="9" class="number" id="9"></td>
+                <td><input type="button" value="%" class="symbol" id="%"></td>
+            </tr>
+            <tr class="rows">
+                <td><input type="button" value="4" class="number" id="4"></td>
+                <td><input type="button" value="5" class="number" id="5"></td>
+                <td><input type="button" value="6" class="number" id="6"></td>
+                <td><input type="button" value="X" class="symbol" id="x"></td>
+            </tr>
+            <tr class="rows">
+                <td><input type="button" value="1" class="number"  id="1"></td>
+                <td><input type="button" value="2" class="number" id="2"></td>
+                <td><input type="button" value="3" class="number" id="3"></td>
+                <td><input type="button" value="-" class="symbol" id="-"></td>
+            </tr>
+            <tr class="rows">
+                <td><input type="button" value="." class="symbol" id="."></td>
+                <td><input type="button" value="0" class="number" id="0"></td>
+                <td><input type="button" value="=" class="result"  id="="></td>
+                <td><input type="button" value="+" class="symbol" id="+"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="functions.js"></script>
+
+</html>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Mono";
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8ff;
+  color: #00bfff;
+}
+
+.calc {
+  padding-top: 1em;
+  width: 22em;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.calc .header {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 2.5em;
+}
+
+.calc .result-container {
+  height: 7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.calc .upper-display {
+  font-size: 1.5rem;
+}
+
+.calc .buttons-container {
+  background-color: #e4e4e4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1em;
+  padding-left: 0.75em;
+  padding-bottom: 1em;
+}
+
+.calc .number, .calc .symbol, .calc .result {
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.75em;
+  font-size: 1.25rem;
+  border-radius: 100px;
+  border: 0;
+  background-color: #e4e4e4;
+}
+
+.calc .number:hover, .calc .symbol:hover, .calc .result:hover {
+  cursor: pointer;
+}
+
+.calc .number:hover, .calc .symbol:hover {
+  background-color: #f8f8ff;
+}
+
+.calc .result {
+  background-color: #00bfff;
+  color: white;
+  -webkit-box-shadow: 0 0 0 2px white;
+          box-shadow: 0 0 0 2px white;
+  font-weight: bold;
+}
+
+.calc .symbol {
+  color: #00bfff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

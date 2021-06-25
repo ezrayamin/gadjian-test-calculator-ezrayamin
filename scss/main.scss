@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+    $mainBackground: #f8f8ff;
+    $appBackground: #ebebeb;
+    $buttonsBackground: #e4e4e4;
+    $primaryColor: #00bfff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono";
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $mainBackground;
+    color: $primaryColor;
+}
+
+.calc {
+    padding-top: 1em;
+    width: 22em;
+    background-color: $appBackground;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    .header {
+        align-self: center;
+        font-size: 2.5em;
+    }
+
+    .result-container {
+        height: 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .upper-display {
+        font-size: 1.5rem;
+        // margin-left: -120px;
+    }
+    .buttons-container {
+        background-color: $buttonsBackground;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1em;
+        padding-left: 0.75em;
+        padding-bottom: 1em;
+    }
+
+    .number, .symbol, .result {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.75em;
+        font-size: 1.25rem;
+        border-radius: 100px;
+        border: 0;
+        background-color: $buttonsBackground;
+    }
+
+    .number:hover, .symbol:hover, .result:hover {
+        cursor: pointer;
+    }
+
+    .number:hover, .symbol:hover {
+        background-color: $mainBackground;
+    }
+
+    .result {
+        background-color: $primaryColor;
+        color: white;
+        box-shadow: 0 0 0 2px white;
+        font-weight: bold;
+    }
+
+    .symbol {
+        color: $primaryColor;
+        font-weight: bold;
+    }
+
+
+}
