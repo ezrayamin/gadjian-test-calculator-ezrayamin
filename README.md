@@ -20,3 +20,5 @@ or if you want to run the app in dev mode, just open the file below on your defa
 # How to use this app
 You could type or click any mathematical operation in the input box, please make sure that your input is valid.
 To get the result, please click the '=' button
+
+![Screenshot (49)](https://user-images.githubusercontent.com/73160378/123442581-decaca80-d589-11eb-90a8-98c9b2784887.png)
